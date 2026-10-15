@@ -1,0 +1,9 @@
+/* সনো ল্যাব – About page */
+.bld{border-radius:28px;min-height:360px;background:linear-gradient(160deg,var(--navy),var(--teal));display:grid;place-items:center;font-size:110px;box-shadow:var(--sh)}
+.founder{display:grid;grid-template-columns:300px 1fr;gap:36px;align-items:start}
+.fp{background:linear-gradient(160deg,var(--teal2),var(--coral));border-radius:28px;aspect-ratio:3/4;display:grid;place-items:center;font:800 90px 'Baloo Da 2';color:#fff}
+.quote{background:linear-gradient(120deg,var(--navy),#1a6fc4);color:#fff;text-align:center;padding:60px 0}
+.quote p{font:600 clamp(20px,2.6vw,28px)/1.6 'Baloo Da 2';max-width:900px;margin:0 auto}
+.quote small{color:var(--gold);font-size:16px}
+@media(max-width:860px){.founder{grid-template-columns:1fr}
+.fp{max-width:260px}}

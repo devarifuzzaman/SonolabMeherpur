@@ -1,0 +1,78 @@
+/* সনো ল্যাব – Doctors page */
+.doc {
+    text-align: center;
+    padding: 0 0 20px;
+    overflow: hidden;
+}
+.av {
+    height: 130px;
+    background: linear-gradient(135deg,var(--c1),var(--c2));
+    display: grid;
+    place-items: center;
+    margin-bottom: 44px;
+    position: relative;
+}
+.av b {
+    position: absolute;
+    bottom: -38px;
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    background: var(--sf);
+    border: 4px solid var(--sf);
+    display: grid;
+    place-items: center;
+    font: 800 32px 'Baloo Da 2';
+    color: var(--teal);
+    box-shadow: var(--sh);
+}
+.doc .k {
+    display: inline-block;
+    background: var(--mint);
+    color: var(--teal);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 1px 12px;
+    border-radius: 99px;
+    margin-top: 6px;
+}
+.doc h3 {
+    padding: 0 14px;
+}
+.doc p {
+    padding: 0 16px;
+    min-height: 50px;
+}
+.doc .btn {
+    margin-top: 12px;
+    padding: 8px 20px;
+    font-size: 15px;
+}
+.tools {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    background: var(--sf);
+    padding: 14px;
+    border-radius: 99px;
+    box-shadow: var(--sh);
+    margin-bottom: 28px;
+}
+.tools input,
+.tools select {
+    font: 16px 'Hind Siliguri';
+    color: var(--tx);
+    background: var(--bg);
+    border: 1px solid var(--br);
+    border-radius: 99px;
+    padding: 10px 18px;
+}
+.tools input {
+    flex: 1;
+    min-width: 200px;
+}
+@media(max-width:860px) {
+    .tools {
+        border-radius: 24px;
+    }
+}

@@ -1,0 +1,9 @@
+/* সনো ল্যাব – Media page */
+#news2 .card {
+    border-left: 4px solid var(--coral);
+}
+.nt {
+    color: var(--teal);
+    font-size: 14px;
+    font-weight: 600;
+}

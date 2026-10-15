@@ -1,0 +1,7 @@
+/* সনো ল্যাব – Hospital services page */
+#svc .card {
+    border-top: 4px solid var(--teal);
+}
+#svc .card:hover {
+    border-top-color: var(--coral);
+}
